@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.navbar-container{
+    display: flex;
+    margin: 20px;
+    padding: 15px;
+    
+}
+.icon{
+    height: 100px;
+    width: 100px;
+}
+
+.nav-items a{
+    padding: 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.nav-items i{
+    margin-left: 5px;
+    padding: 5px;
+}
+
+.btn1{
+    align-items: right;
+    margin-left: 300px;
+    height: 50px;
+    width: 150px;
+    border-radius: 1rem;
+    color: white;
+    background-color:#37B5B6 ;
+    font-size: large;
+    font-weight: bold;
+    border:none;
+}
+/* .main{
+    display: flex;
+    overflow: hidden;
+    
+    
+} */
+.welcome{
+   color:white;
+   position: relative;
+   left: 20%;
+   z-index: 1;
+   top: 80px;
+   
+
+   font-size:300% ;
+   line-height: 80px;
+   font-family: Arial, Helvetica, sans-serif; 
+   
+
+}
+.timings{
+    font-size: 60%;
+    line-height:35px;
+    font-family: serif;
+}
+
+.btn2{
+    border-radius: 1.5rem;
+    color: white;
+    background-color:#37B5B6 ;
+    font-size: large;
+    font-weight: bold;
+    border:none;
+    height: 50px;
+    width: 180px;
+}
+/* .main-3{
+     background-image: url("images/brooke-lark-ywv6hrTgSF8-unsplash.jpg");
+    height: 100vh;
+    opacity: 0.9;
+    
+   
+    
+} */
+
+
+     
+    
+
+    
+    
+   
+    
+    
+
+
+
+
+.items-container{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    
+    
+}
+
+.items img{
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    padding: 80px;
+    
+
+}
+
+
+
+
+
+.desc{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    color: #22092C;
+}
+
+.heading{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.background-video{
+    position: relative;
+    /* object-fit: cover; */
+    height: 100vh;
+    background-color: #EED6D3;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.video{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}
+
+.container-4{
+    background-image: url("images/deborah-rainford-mRTxwtWcOW0-unsplash.jpg");
+    opacity: 0.8;
+    height:100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+
+   
+}
+
+.content-box{
+    border: 2px solid #67595E;
+    height: 80%;
+    width: 80%;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 10px;
+    /* display: flex;
+    justify-content: center;
+     */
+    
+
+}
+.content-box img{
+    height: 200px;
+    width: 200px;
+    padding-left: 40%;
+    padding-top: 60px;
+    
+    
+    
+}
+
+.content-box h3{
+    text-align: center;
+    padding-top: 10px;
+    color:#05445E ;
+}
+
+.content-box p{
+    text-align: center;
+    color:#05445E ;
+}
+
+.btn3{
+    
+    margin-left: 42%;
+    height: 50px;
+    width: 150px;
+    border-radius: 1rem;
+    color: white;
+    background-color:#37B5B6 ;
+    font-size: large;
+    font-weight: bold;
+    border:none;
+    margin-top: 10px;
+
+}
+
+.main-5{
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; */
+
+}
+
+.container-5{
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+    margin-bottom: 50px;
+    
+
+    justify-content: center;
+    
+    margin-left: 2%;
+    
+    padding-top: 10px;
+    /* overflow: hidden; */
+}
+
+.container-5 img{
+    height: 250px;
+    width: 250px;
+    
+    
+}
+
+
+.cake {
+    
+    padding-left: 40%;
+    /* padding-bottom: 2px; */
+    padding-top:15px;
+
+    
+
+}
+
+.heading2 {
+    /* font-size: 40px;
+    font-weight: bold;
+    padding-left: 5%;
+    margin: auto;
+    margin-bottom: 5px; */
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 40px;
+    
+
+    
+
+}
+
+.boxes {
+    /* margin: 5px; */
+    border-radius: 5px;
+   padding: 25px;
+
+}
+table{
+    height: 100vh;
+    width: 110vh;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+
+   
+}
+
+.question{
+    background-color:#A49393;
+    height: 150px;
+    width: 150px;
+    padding: 15px;
+
+    margin: 0 0 0 80% ;
+    border: 2px solid black;
+    
+    
+}
+
+.last-main{
+    background-image: url(images/shree-iyer-_wWDKkxS4gE-unsplash.jpg);
+    background-position: 100%;
+    background-size: cover;
+    height: 100vh;
+    opacity: 0.8;
+}
+
+.button-1{
+    height: 80px;
+    width: 250px;
+    border-radius: 1rem;
+    color: white;
+    background-color:#37B5B6 ;
+    font-size: large;
+    font-weight: bold;
+    opacity: 0.5;
+    margin: 10%;
+
+}
+.button-2{
+    height: 80px;
+    width: 250px;
+    border-radius: 1rem;
+    color: white;
+    background-color:#37B5B6 ;
+    font-size: large;
+    font-weight: bold;
+    opacity: 0.5;
+    margin: 10%
+
+
+
+}
+
+.socialmedia h4{
+    text-align: center;
+    color: white;
+}
+
+.socialmedia i{
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 10px;
+
+    
+    
+
+}
+.icons{
+    padding-left: 45%
+    
+}
+   
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+    
+
+   
+    
+
+    
